@@ -12,11 +12,29 @@
 String str = "Hello World";
 String str2 = "Χέλλοου Γουόρλντ";
 String str3 = "Hello World 3";
+int i=5;
 
 %>
+
 <h1><%= str %></h1>
 <h2> <%= str2 %></h2>
 <h3> <%=str3 %></h3>
 
+<% if (i%2 == 0)
+	{
+		
+	%>
+<h2> Ο Αριθμός είναι Ζυγός </h2>
+ <%
+
+	}
+else {
+	%>
+	
+	<h2> Ο αριθμός είναι Μονός</h2>
+<%
+}
+
+%>
 </body>
 </html>
