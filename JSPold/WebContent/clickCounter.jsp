@@ -7,7 +7,7 @@
 <!-- 14/5/18 static variables -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Insert title here</title>
+<title>Use of a static variable to count clicks</title>
 </head>
 <body>
 <%! static int hit =0; %>
